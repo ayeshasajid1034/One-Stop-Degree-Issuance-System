@@ -1,0 +1,145 @@
+﻿/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+label {
+    width: 200px;
+    margin-right: 20px;
+    text-align: right;
+    line-height: 35px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    form {
+        padding: 20px;
+    }
+
+    label {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+}
+
+.chart {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.bar {
+    height: 0;
+    width: 20%;
+    background-color: #8dbdd8;
+    position: relative;
+}
+
+    .bar .label {
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translate(-50%, -10px);
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .bar:first-child {
+        background-color: #ff6666;
+    }
+
+    .bar:nth-child(2) {
+        background-color: #ffd966;
+    }
+
+    .bar:nth-child(3) {
+        background-color: #b2d8b2;
+    }
+
+    .bar:nth-child(4) {
+        background-color: #b2b2d8;
+    }
+
+    .bar:last-child {
+        background-color: #cccccc;
+    }
+
+@media (max-width: 768px) {
+    .chart {
+        flex-wrap: wrap;
+        padding: 20px 10px;
+    }
+
+    .bar {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}

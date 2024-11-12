@@ -1,0 +1,116 @@
+﻿
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], select {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+input[type="date"] {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+textarea {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    height: 150px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-bottom: 20px;
+}
+
+    .container > div {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+        .container > div:nth-child(6n+1) {
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        .container > div:nth-child(6n+2) {
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .container > div:nth-child(6n+3) {
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+
+        .container > div:nth-child(6n+4) {
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+
+        .container > div:nth-child(6n+5) {
+            grid-row-start: 5;
+            grid-row-end: 6;
+        }
+
+        .container > div > span {
+            margin-right: 10px;
+        }
+
+.submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+    .submit:hover {
+        background-color: #45a049;
+    }

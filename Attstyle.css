@@ -1,0 +1,86 @@
+﻿/* Change background color and font style */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for top navigation bar */
+.top-nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .top-nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+   
+/* Style for main heading */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Style for form label and input fields */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="submit"] {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Style for table */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+    input[type="submit"]:hover {
+        background-color: #555;
+    }
+input[type="text"] {
+    width: 200px; /* adjust this value to change the width */
+    height: 30px; /* adjust this value to change the height */
+}
+
+/* Style for error message */
+.error {
+    color: red;
+    margin-bottom: 10px;
+}

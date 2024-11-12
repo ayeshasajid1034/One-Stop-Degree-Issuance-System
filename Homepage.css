@@ -1,0 +1,86 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3e0e2;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 50px;
+    color: #FF7F50; /* coral color */
+}
+
+.university-info,
+.personal-info,
+.contact-info {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+    .university-info h2,
+    .personal-info h2,
+    .contact-info h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #4B0082; /* indigo color */
+    }
+
+.university-info {
+    background-color: #FFC0CB; /* pink color */
+}
+
+.personal-info {
+    background-color: #87CEFA; /* light blue color */
+}
+
+.contact-info {
+    background-color: #90EE90; /* light green color */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    ul li {
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #333;
+    }
+
+a {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+    a:hover {
+        background-color: #0069d9;
+    }
